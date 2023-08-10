@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Excel Processing</title>
+</head>
+<body>
+    <h1>Upload Excel File and Process</h1>
+    <form method="POST" action="/" enctype="multipart/form-data">
+        <label for="input_file">Upload Excel File:</label>
+        <input type="file" name="input_file" id="input_file" accept=".xlsx" required>
+        <br>
+        <label for="starting_number">Starting Number:</label>
+        <input type="number" name="starting_number" id="starting_number" value="100" required>
+        <br>
+        <input type="submit" value="Process">
+    </form>
+</body>
+</html>
